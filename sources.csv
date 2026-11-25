@@ -1,0 +1,54 @@
+file,label,category,config,split,client_ip
+benign_gao_normal_00000_20230805150331.pcap,0,benign_top_sites,cloudflare_top_domains,train,192.168.68.62
+benign_gao_normal_00001_20230805152732.pcap,0,benign_top_sites,cloudflare_top_domains,train,192.168.68.62
+benign_gao_normal_00002_20230805155315.pcap,0,benign_top_sites,cloudflare_top_domains,train,192.168.68.62
+benign_gao_normal_00003_20230805162300.pcap,0,benign_top_sites,cloudflare_top_domains,test,192.168.68.62
+benign_gao_normal_00004_20230805165638.pcap,0,benign_top_sites,cloudflare_top_domains,test,192.168.68.62
+benign_gao_normal_00005_20230805173251.pcap,0,benign_top_sites,cloudflare_top_domains,test,192.168.68.62
+benign_gao_wildcard_00000_20231011215521.pcap,0,benign_wildcard,wildcard_subdomains,test,113.54.129.232
+benign_gao_wildcard_00001_20231011215715.pcap,0,benign_wildcard,wildcard_subdomains,test,113.54.129.232
+benign_gao_wildcard_00002_20231011220330.pcap,0,benign_wildcard,wildcard_subdomains,test,113.54.129.232
+benign_gao_wildcard_00003_20231011220812.pcap,0,benign_wildcard,wildcard_subdomains,test,113.54.129.232
+dns2tcp_c2_KEY_NO.pcap,1,dns2tcp,c2_KEY_plain,unseen,192.168.0.30
+dns2tcp_c2_KEY_YES.pcap,1,dns2tcp,c2_KEY_encrypted,unseen,192.168.0.30
+dns2tcp_c2_TXT_NO.pcap,1,dns2tcp,c2_TXT_plain,unseen,192.168.0.30
+dns2tcp_c2_TXT_YES.pcap,1,dns2tcp,c2_TXT_encrypted,unseen,192.168.0.30
+dns2tcp_file_transfer_KEY_NO.pcap,1,dns2tcp,file_transfer_KEY_plain,unseen,192.168.0.30
+dns2tcp_file_transfer_KEY_YES.pcap,1,dns2tcp,file_transfer_KEY_encrypted,unseen,192.168.0.30
+dns2tcp_file_transfer_TXT_NO.pcap,1,dns2tcp,file_transfer_TXT_plain,unseen,192.168.0.30
+dns2tcp_file_transfer_TXT_YES.pcap,1,dns2tcp,file_transfer_TXT_encrypted,unseen,192.168.0.30
+dnscat_c2_TXT-CNAME-MX_default.pcap,1,dnscat2,c2,test,192.168.0.30
+dnscat_file_transfer_TXT-CNAME-MX_default.pcap,1,dnscat2,file_transfer,train,192.168.0.30
+gao_cobaltstrike.pcap,1,cobaltstrike,beacon_dns,unseen,192.168.68.62
+gao_iodine_A.pcap,1,iodine_A_mode,A_auto,unseen,192.168.117.128
+iodine_file_transfer_CNAME_BASE128.pcap,1,iodine,CNAME_BASE128,train,192.168.0.30
+iodine_file_transfer_CNAME_BASE32.pcap,1,iodine,CNAME_BASE32,train,192.168.0.30
+iodine_file_transfer_CNAME_BASE64.pcap,1,iodine,CNAME_BASE64,test,192.168.0.30
+iodine_file_transfer_CNAME_RAW.pcap,1,iodine,CNAME_RAW,test,192.168.0.30
+iodine_file_transfer_MX_BASE128.pcap,1,iodine,MX_BASE128,train,192.168.0.30
+iodine_file_transfer_MX_BASE32.pcap,1,iodine,MX_BASE32,train,192.168.0.30
+iodine_file_transfer_MX_BASE64.pcap,1,iodine,MX_BASE64,test,192.168.0.30
+iodine_file_transfer_MX_RAW.pcap,1,iodine,MX_RAW,test,192.168.0.30
+iodine_file_transfer_NULL_BASE128.pcap,1,iodine,NULL_BASE128,train,192.168.0.30
+iodine_file_transfer_NULL_BASE32.pcap,1,iodine,NULL_BASE32,train,192.168.0.30
+iodine_file_transfer_NULL_BASE64.pcap,1,iodine,NULL_BASE64,test,192.168.0.30
+iodine_file_transfer_NULL_RAW.pcap,1,iodine,NULL_RAW,test,192.168.0.30
+iodine_file_transfer_PRIVATE_BASE128.pcap,1,iodine,PRIVATE_BASE128,train,192.168.0.30
+iodine_file_transfer_PRIVATE_BASE32.pcap,1,iodine,PRIVATE_BASE32,train,192.168.0.30
+iodine_file_transfer_PRIVATE_BASE64.pcap,1,iodine,PRIVATE_BASE64,test,192.168.0.30
+iodine_file_transfer_PRIVATE_RAW.pcap,1,iodine,PRIVATE_RAW,test,192.168.0.30
+iodine_file_transfer_SRV_BASE128.pcap,1,iodine,SRV_BASE128,train,192.168.0.30
+iodine_file_transfer_SRV_BASE32.pcap,1,iodine,SRV_BASE32,train,192.168.0.30
+iodine_file_transfer_SRV_BASE64.pcap,1,iodine,SRV_BASE64,test,192.168.0.30
+iodine_file_transfer_SRV_RAW.pcap,1,iodine,SRV_RAW,test,192.168.0.30
+iodine_file_transfer_TXT_BASE128.pcap,1,iodine,TXT_BASE128,train,192.168.0.30
+iodine_file_transfer_TXT_BASE32.pcap,1,iodine,TXT_BASE32,train,192.168.0.30
+iodine_file_transfer_TXT_BASE64.pcap,1,iodine,TXT_BASE64,test,192.168.0.30
+iodine_file_transfer_TXT_RAW.pcap,1,iodine,TXT_RAW,test,192.168.0.30
+own_capture_session1_part1.pcapng,0,benign_own,laptop_wifi_first_half,train,192.168.100.6
+own_capture_session1_part2.pcapng,0,benign_own,laptop_wifi_second_half,test,192.168.100.6
+# own_capture_session1.pcapng (7 Nov 2026, 19:05-20:52) was split in two halves by time with:
+#   editcap -B 1794063536 own_capture_session1.pcapng own_capture_session1_part1.pcapng
+#   editcap -A 1794063536 own_capture_session1.pcapng own_capture_session1_part2.pcapng
+# Add more captures like this (client_ip = any keeps every DNS response):
+# own_capture_session2.pcapng,0,benign_own,phone_hotspot,test,any

@@ -1,0 +1,19 @@
+rule,cobaltstrike,dns2tcp,iodine_A_mode
+entropy (literature),97.03,1.01,0.73
+entropy (tuned),97.67,1.02,7.03
+length (literature),98.89,1.04,15.28
+length (tuned),97.31,0.99,15.26
+longest_label (literature),97.18,0.99,15.2
+longest_label (tuned),97.18,1.0,15.24
+label_count (literature),98.89,0.0,0.72
+label_count (tuned),0.0,0.0,0.0
+record_type (literature),0.17,100.0,0.0
+record_type (tuned),0.17,100.0,0.0
+ttl (literature),0.0,0.0,100.0
+ttl (tuned),0.0,0.0,100.0
+unique_subs (literature),97.87,99.45,98.76
+unique_subs (tuned),98.66,99.75,99.71
+combined >= 2 agree (literature),98.89,99.6,99.01
+combined any rule (literature),99.29,100.0,100.0
+combined >= 2 agree (tuned),97.65,99.82,99.8
+combined any rule (tuned),99.13,100.0,100.0

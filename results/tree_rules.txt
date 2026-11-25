@@ -1,0 +1,30 @@
+=== A_all_features (class 1 = tunnel) ===
+|--- uncommon_type <= 0.50
+|   |--- class: 0
+|--- uncommon_type >  0.50
+|   |--- ttl <= -0.50
+|   |   |--- class: 1
+|   |--- ttl >  -0.50
+|   |   |--- class: 1
+
+=== B_without_record_type (class 1 = tunnel) ===
+|--- unique_subs_60s <= 10.50
+|   |--- longest_label <= 31.00
+|   |   |--- unique_subs_60s <= 8.50
+|   |   |   |--- class: 0
+|   |   |--- unique_subs_60s >  8.50
+|   |   |   |--- class: 0
+|   |--- longest_label >  31.00
+|   |   |--- ttl <= 180.00
+|   |   |   |--- class: 1
+|   |   |--- ttl >  180.00
+|   |   |   |--- class: 0
+|--- unique_subs_60s >  10.50
+|   |--- longest_label <= 5.00
+|   |   |--- class: 0
+|   |--- longest_label >  5.00
+|   |   |--- longest_label <= 7.00
+|   |   |   |--- class: 1
+|   |   |--- longest_label >  7.00
+|   |   |   |--- class: 1
+

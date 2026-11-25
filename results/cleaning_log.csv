@@ -1,0 +1,4 @@
+step,rows
+rows extracted,395081
+after removing empty names,395081
+after removing duplicate responses,394223

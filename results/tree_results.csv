@@ -1,0 +1,15 @@
+experiment,evaluated_on,TP,FP,TN,FN,detection_rate,fpr,precision,f1,balanced_acc
+A_all_features,test split,77896,0,46099,0,100.0,0.0,100.0,100.0,100.0
+A_all_features,test benign: benign_own,0,0,1221,0,0.0,0.0,0.0,0.0,50.0
+A_all_features,test benign: benign_top_sites,0,0,44878,0,0.0,0.0,0.0,0.0,50.0
+A_all_features,benign wildcard (stress),0,0,89185,0,0.0,0.0,0.0,0.0,50.0
+A_all_features,unseen: cobaltstrike,22,0,0,13008,0.17,0.0,100.0,0.34,50.08
+A_all_features,unseen: dns2tcp,29477,0,0,0,100.0,0.0,100.0,100.0,100.0
+A_all_features,unseen: iodine_A_mode,0,0,0,11770,0.0,0.0,0.0,0.0,50.0
+B_without_record_type,test split,77848,1,46098,48,99.94,0.0,100.0,99.97,99.97
+B_without_record_type,test benign: benign_own,0,0,1221,0,0.0,0.0,0.0,0.0,50.0
+B_without_record_type,test benign: benign_top_sites,0,1,44877,0,0.0,0.0,0.0,0.0,50.0
+B_without_record_type,benign wildcard (stress),0,86044,3141,0,0.0,96.48,0.0,0.0,1.76
+B_without_record_type,unseen: cobaltstrike,12877,0,0,153,98.83,0.0,100.0,99.41,99.41
+B_without_record_type,unseen: dns2tcp,29411,0,0,66,99.78,0.0,100.0,99.89,99.89
+B_without_record_type,unseen: iodine_A_mode,11739,0,0,31,99.74,0.0,100.0,99.87,99.87

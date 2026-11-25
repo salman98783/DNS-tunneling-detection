@@ -1,0 +1,8 @@
+rule,feature,direction,literature,tuned_on_train,train_detection_%,train_worst_fpr_%
+entropy,entropy,>,4.0,3.7081,16.21,0.77
+length,sub_length,>,20,31.0,60.03,0.38
+longest_label,longest_label,>,40,30.0,60.03,0.38
+label_count,label_count,>,3,31.0,0.0,0.0
+record_type,uncommon_type,>,0,0.0,100.0,0.0
+ttl,ttl,<,1,1.0,49.93,0.0
+unique_subs,unique_subs_60s,>,20,9.0,99.73,0.77
